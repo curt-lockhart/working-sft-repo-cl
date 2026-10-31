@@ -1,0 +1,7 @@
+{
+  "decisions": 2091,
+  "accuracy": 78.7,
+  "contradiction_f1": 62.4,
+  "evidence_f1": 69.3,
+  "parse_failures": 0
+}

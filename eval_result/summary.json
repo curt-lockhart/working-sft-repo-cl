@@ -1,0 +1,24 @@
+{
+  "eval_contracts": 123,
+  "checklist_items": 17,
+  "models": {
+    "base": {
+      "model": "huggingface-reasoning-nemotron-3-5-lightning-30b-a3b-bf16",
+      "how": "managed scorer",
+      "accuracy": 0.7173983739837398,
+      "evidence_f1": 0.7069918699186992
+    },
+    "frontier": {
+      "model": "global.anthropic.claude-sonnet-4-6",
+      "how": "local pass",
+      "accuracy": 78.7,
+      "evidence_f1": 69.3
+    },
+    "fine_tuned": {
+      "model": "huggingface-reasoning-nemotron-3-5-lightning-30b-a3b-bf16",
+      "how": "managed scorer",
+      "accuracy": 88.76268292682927,
+      "evidence_f1": 80.9290243902439
+    }
+  }
+}

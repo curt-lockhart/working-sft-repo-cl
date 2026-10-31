@@ -1,0 +1,14 @@
+{
+  "endpoint": "cnli-base-nvfp4-g6e16-ep",
+  "label_correct": 0.6131048780487804,
+  "evidence_f1": 0.018355284552845526,
+  "contradiction_correct": 0.22560731707317078,
+  "json_valid": 0.967479674796748,
+  "aggregate_reward_score": 0.3752050406504065,
+  "lenient": {
+    "label_correct": 0.6327121951219511,
+    "evidence_f1": 0.40161300813008133,
+    "contradiction_correct": 0.2350918699186992,
+    "json_valid": 1.0
+  }
+}
